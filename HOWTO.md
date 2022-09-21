@@ -17,36 +17,18 @@ Install as sudo or root
 
 * RHEL 7
 
-            yum install devtoolset-8
-            yum install make
-            yum install cmake
-            yum install perl
-            yum install git-lfs
-            
+      yum install devtoolset-8 make cmake perl git-lfs
+
   To enable the devtoolset-8, you can run `scl enable devtoolset-8 bash`
 
 * RHEL 8, CentOS Stream 8
 
-
-           dnf install gcc
-           dnf install gcc-gfortran
-           dnf install gcc-c++
-           dnf install make
-           dnf install cmake
-           dnf install perl
-           dnf install git-lfs
-
+      dnf install gcc gcc-gfortran gcc-c++ make cmake perl git-lfs
 
 * Ubuntu
 
-           apt-get update
-		   apt-get upgrade
-           apt-get install build-essential
-           apt-get install gfortran
-           apt-get install cmake
-           apt-get install perl
-           apt-get install git-lfs
-
+      apt update
+      apt install build-essential gfortran cmake perl git-lfs
 
 
 ### OpenMPI
