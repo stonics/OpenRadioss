@@ -77,7 +77,7 @@ It is recommended to build and install OpenMPI from OpenMPI website using gcc co
 ## How to build OpenRadioss
 ### Get the source
 * Activate LFS: `git lfs install`
-* Run `git clone git@github.com:OpenRadioss/OpenRadioss.git`. 
+* Run `git clone https://github.com/OpenRadioss/OpenRadioss.git`. 
 
 See [here](./CONTRIBUTING.md) if you want to contribute to OpenRadioss.
 
